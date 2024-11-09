@@ -1,0 +1,125 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Overall Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container */
+.container {
+    width: 85%;
+    max-width: 900px;
+    margin: 30px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Section */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+header h2 {
+    font-size: 1.4em;
+    color: #777;
+}
+
+header .contact-info {
+    margin-top: 10px;
+    font-size: 1.1em;
+}
+
+header .contact-info a {
+    text-decoration: none;
+    color: #0073e6;
+    margin-right: 15px;
+    transition: color 0.3s;
+}
+
+header .contact-info a:hover {
+    color: #005bb5;
+}
+
+/* Summary Section */
+section h3 {
+    font-size: 1.6em;
+    background-color: #efefef;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+section p {
+    font-size: 1.1em;
+    color: #555;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+/* Experience Section */
+ul.experience-list, ul.education-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul.experience-list li, ul.education-list li {
+    margin-bottom: 20px;
+}
+
+ul.experience-list li strong, ul.education-list li strong {
+    font-size: 1.3em;
+    color: #333;
+}
+
+ul.experience-list li span, ul.education-list li span {
+    font-size: 0.9em;
+    color: #777;
+}
+
+ul.experience-list li ul, ul.education-list li ul {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+ul.experience-list li ul li {
+    font-size: 1.1em;
+    color: #555;
+    list-style-type: disc;
+}
+
+/* Skills Section */
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.skills-list li {
+    background-color: #f1f1f1;
+    margin: 8px;
+    padding: 8px 12px;
+    border-radius: 20px;
+    font-size: 1.1em;
+    color: #333;
+    box-shadow: 0 2px 5p
+}
